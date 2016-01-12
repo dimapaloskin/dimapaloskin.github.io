@@ -1,0 +1,34 @@
+h1 {
+  font-family: Helvetica, 'Open Sans';
+  font-size: 80px;
+  line-height: 1.5;
+  color: #ddd;
+}
+
+h3 {
+  font-family: Helvetica, 'Open Sans';
+  font-size: 65px;
+  line-height: 1.2;
+  color: #ddd;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  align-content: center;
+  overflow: auto;
+  background-image: linear-gradient(270deg, #86bdaf, #7096b6);
+}
+
+.block {
+  text-align: center;
+  display: block;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 40px;
+}
