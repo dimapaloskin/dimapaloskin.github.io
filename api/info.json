@@ -30,6 +30,22 @@
   ],
   "current_work": "instinctools",
   "skills": [
-    "javascript", "nodejs", "react", "react native", "angular", "coffeescript", "typescript", "rest", "websockets", "linux", "webrtc", "realtime"
+    "javascript",
+    "nodejs",
+    "react",
+    "react native",
+    "angular",
+    "coffeescript",
+    "typescript",
+    "rest",
+    "websockets",
+    "linux",
+    "webrtc",
+    "realtime",
+    "git",
+    "video",
+    "ffmpeg",
+    "mpv",
+    "unix"
   ]
 }
