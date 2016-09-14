@@ -4,6 +4,13 @@ html, body {
   margin: 10px 15px;
 }
 
+@media screen and (max-device-width: 320px) {
+  html, body {
+    font-family: "Times New Roman", "Times";
+    margin: 5px 5px;
+  }
+}
+
 header {
 
   position: fixed;
@@ -77,6 +84,20 @@ ul li {
   min-width: 380px;
   max-width: 540px;
   width: 80%;
+}
+
+@media screen and (max-device-width: 320px){
+  .container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 300px;
+    max-width: 300px;
+    width: 80%;
+    max-width: 460px;
+  }
 }
 
 .container .hello {
