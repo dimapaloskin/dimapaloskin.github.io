@@ -19,6 +19,7 @@ header {
   font-size: 25px;
   display: block;
   float: left;
+  z-index: 5;
 }
 
 header .left-container {
