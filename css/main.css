@@ -90,6 +90,22 @@ ul li {
   width: 80%;
 }
 
+.container.not-found {
+  text-align: center;
+}
+.container.not-found h1 {
+  font-size: 95px;
+  background-color: #000;
+  color: #fff;
+  line-height: 100px;
+  margin: 0;
+}
+
+.container.not-found h3 {
+  font-size: 70px;
+  margin: 10px;
+}
+
 @media screen and (max-device-width: 320px){
   .container {
     position: absolute;
