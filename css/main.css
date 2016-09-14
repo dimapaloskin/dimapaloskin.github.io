@@ -1,0 +1,109 @@
+body, html {
+
+  font-family: "Times New Roman", "Times";
+  margin: 10px 15px;
+}
+
+
+header {
+
+  position: fixed;
+  top: 0
+  left: 0;
+  font-size: 25px;
+  display: block;
+  float: left;
+}
+
+header .left-container {
+
+  padding: 10px 5px 10px 10px;
+  letter-spacing: 10px;
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+}
+
+header .right-container {
+
+  padding: 10px 5px 10px 10px;
+  letter-spacing: 10px;
+  background-color: #fff;
+  color: #000;
+  display: inline-block;
+  margin: 0;
+}
+
+header a {
+  text-decoration: none;
+}
+
+footer {
+
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  font-size: 15px;
+  color: #333;
+}
+
+h1 {
+
+  font-size: 60px;
+  line-height: 80px;
+  margin: 10px;
+}
+
+a {
+  color: #333;
+}
+
+a:active {
+  color: #000;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  min-width: 380px;
+  max-width: 540px;
+  width: 80%;
+}
+
+.container .hello {
+
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+.container .message {
+
+  text-align: center;
+}
+
+.terminal {
+  color: #ccc;
+  background-color: #000;
+  padding: 10px;
+  font-family: monospace, "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono";
+  font-size: 12px;
+}
+
+.terminal .hash {
+  color: #00ff00;
+}
+
+span.love {
+  color: #a00;
+}
