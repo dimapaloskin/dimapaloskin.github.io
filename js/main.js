@@ -31,7 +31,7 @@ function printInfo(info) {
     console.log(`%c${link.name}: %c ${link.url}`, 'font-weight: bold;', '');
   });
 
-  console.log(`%c My current job: `, 'background: #333; color: #fff;');
+  console.log(`%c My current work: `, 'background: #333; color: #fff;');
   console.log(info.current_work);
 
   console.log(`%c And some of my skills: `, 'background: #333; color: #fff;');
