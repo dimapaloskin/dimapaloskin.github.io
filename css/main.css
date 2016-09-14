@@ -90,13 +90,6 @@ ul li {
   width: 80%;
 }
 
-.clear {
-  height: 60px;
-  width: 100%;
-  background: black;
-  display: none;
-}
-
 @media screen and (max-device-width: 320px){
   .container {
     position: absolute;
@@ -112,13 +105,6 @@ ul li {
 
   .container.api {
     margin-top: 60px;
-  }
-
-  .clear {
-    height: 60px;
-    width: 100%;
-    background: black;
-    display: block;
   }
 }
 
