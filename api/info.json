@@ -31,6 +31,8 @@
   "current_work": "instinctools",
   "skills": [
     "javascript",
+    "css3",
+    "html5",
     "nodejs",
     "react",
     "react native",
@@ -46,6 +48,8 @@
     "video",
     "ffmpeg",
     "mpv",
-    "unix"
+    "unix",
+    "npm",
+    "etc"
   ]
 }
